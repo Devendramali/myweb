@@ -1,0 +1,255 @@
+body{
+      background-image:url(https://img.freepik.com/free-photo/grunge-paint-background_1409-1337.jpg?w=2000) ;
+   background-repeat: no-repeat;
+   background-size: 1400px 670px;
+}
+
+
+
+#menu  ul{
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding:0x;
+    float: right;
+ 
+ }
+  #menu ul a{
+     color: black;
+     text-decoration: none;
+
+     line-height: 32px;
+     padding: 0 15px;
+     display: block;
+     font-size: 20px;
+ }
+ #menu ul li{
+    float: left;
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    
+}
+#menu ul li:hover{
+    background-color: wheat;
+    
+}
+#menu ul ul{
+    position: absolute;
+    background-color: bisque;
+    top: 100%;
+    left: -101;
+    display: none;
+}
+#menu ul ul li{
+    float: none;
+    width: 125px;
+}
+#menu ul ul ul{
+    top: 0px;
+    left: 100px;
+
+}
+#menu ul li:hover > ul{
+    display: block;
+} 
+h1{
+   margin-left: 545px;
+   font-size: 90px;
+   text-decoration: underline;
+   margin-top: 0px;
+}
+p{
+   font-size: 50px;
+   margin-left: 104px;
+}
+span{
+   margin-left: 70px;
+}
+.maindiv{
+    width: 50%;
+    height: 300px;
+    background-size: 100% 100%;
+    background-image: url(https://neilpatel.com/wp-content/uploads/2017/07/webdesign.jpg);
+    position: absolute;
+    left: 50%;
+    top: 51%;
+    transform: translate(-50%,-50%);
+ margin-top: 255px;
+    box-shadow: 1px 2px 10px 5px black;
+    animation: slider 15s infinite ;
+    animation-direction: alternate;   
+    
+}
+@keyframes slider{
+    0%{ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgynzieoN9pkp87mUtiVXAOnuToDDviRpOgQ&usqp=CAU);  }
+    25%{ background-image: url(https://www.sortlist.com/blog/wp-content/uploads/sites/2/2018/05/web-design-concepts-with-blurred-background_1134-82.jpg); }
+    50%{ background-image: url(https://miro.medium.com/max/1838/1*5IYtIe5OwxeoYXi226J-Uw.jpeg); }
+    75%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwmQnMFitZkz8u60xLZkgmbFQXwPiitayOYA&usqp=CAU);  }
+    
+}
+h2{
+    text-decoration: wavy;
+    padding-top:  195px;;
+    padding-left:0px;
+}
+#about{
+   border: 2px hidden black;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 100px;
+    margin-right: 697px;
+    
+}
+#about >p{
+    margin: 13px;
+    font-size:29px ;
+}
+#about >h2{
+    margin: 0%;
+    padding: 0%;
+    font-size: 50px;
+}
+#img{
+    margin-left: 650px;
+    margin-top: -600px;
+
+}
+#use{
+    padding-left: 9%;
+    font-size: 49px;
+     margin:61px; 
+    padding-top: 66px; 
+   
+}
+#use>ul{
+    padding-left: 0%; 
+     font-size: 35px;
+}
+#use >h2{
+    text-decoration: wavy;
+    padding-top: 5%;
+    margin-left: -524px;
+    color: blue;
+
+}
+#wd{
+    
+    border: 1px hidden black;
+    width: 356px;
+    height: 515px;
+    margin-top: 82px;
+    padding: 10px;
+
+}
+#wd >p{
+    font-size: 17px;
+    margin-left: 0px;
+}
+#seo{
+    border: 1px hidden black;
+    width: 356px;
+    height: 515px;
+    margin-left: 474px;
+    margin-top: -535px;
+
+}
+#seo >p{
+    font-size: 17px;
+    margin-left: 0px;
+}
+#wcw{
+    border: 1px hidden black;
+    width: 356px;
+    height: 515px;
+    margin-left: 940px;
+    margin-top: -519px;
+
+}
+#wcw >p{
+    font-size: 17px;
+    margin-left: 0px;
+}
+#p{
+  
+    border: 1px hidden black;
+    width: 356px;
+    height: 515px;
+    margin-left: 922px;
+    margin-top: -516px;
+}
+#p >p{
+    font-size: 17px;
+    margin-left: 0px;
+}
+#vt{
+    border: 1px hidden black;
+    width: 356px;
+    height: 515px;
+    margin-top: 82px;
+    padding: 10px;
+}
+#vt >p{
+    font-size: 17px;
+    margin-left: 0px;
+}
+#cw{
+    border: 1px hidden black;
+    width: 356px;
+    height: 515px;
+    margin-left: 474px;
+    margin-top: -535px;
+
+
+}
+#cw >p{
+    font-size: 17px;
+    margin-left: 0px;
+}
+
+#mad{
+    border: 1px hidden black;
+    width: 356px;
+    height: 515px;
+    margin-left: 922px;
+    margin-top: -516px;
+    
+
+}
+#mad >p{
+    font-size: 17px;
+    margin-left: 0px;
+}
+#cmc{
+    border: 1px hidden black;
+    width: 356px;
+    height: 515px;
+    margin-top: 177px;
+    padding: 10px;
+
+    
+}
+#cmc >p{
+    font-size: 17px;
+    margin-left: 0px;
+}
+#gd{
+    border: 1px hidden black;
+    width: 356px;
+    height: 515px;
+    margin-left: 474px;
+    margin-top: -535px;
+    
+
+}
+#gd >p{
+    font-size: 17px;
+    margin-left: 0px;
+}
+#usefull{
+    padding-left: 17%;
+    font-size: 36px; 
+    margin-left:0px;
+     padding-top: 0px;
+      color: blue;
+}
